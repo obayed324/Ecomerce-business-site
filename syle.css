@@ -1,12 +1,15 @@
 * {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
+
 /* Common Css */
 .container {
   max-width: 1280px;
   margin: auto;
 }
+
 .panda-btn {
   border-radius: 6px;
 
@@ -153,4 +156,57 @@ nav {
 .card-3 img {
   width: 152px;
   height: 97px;
+}
+
+/* Shoes section */
+.shoes-and-back-pac{
+    background: rgb(236, 222, 222);
+    margin-top: 64px;
+    
+}
+.shoes-section{
+    margin: auto;  
+}
+.shoes-card-container{
+    display: flex;
+    gap: 24px;
+}
+
+.shoes-card{
+    margin: 64px 0;
+    border-radius: 20px;
+    background: white;
+    flex: 1;
+    padding: 25px;
+    text-align: center;
+}
+.shoes-card img{
+    width: 336px;
+    height: 202px;
+}
+.shoes-card h3{
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.shoes-card p{
+    color: rgb(78, 78, 78);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    width: 307px;
+    height: 52px;
+}
+.card-price{
+    display: block;
+    color: rgb(31, 31, 31);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.shoes-card .panda-btn{
+    background: #000000;
 }
